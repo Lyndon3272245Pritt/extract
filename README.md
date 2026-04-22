@@ -2,7 +2,7 @@
 Extract
 ======
 
-## Extract est une application qui facilite l’extraction et la livraison de vos géodonnées
+## Extract est une application qui facilite l'extraction et la livraison de vos géodonnées
 
 L'application Extract **importe les commandes** de données déposées sur une plateforme ou magasin de données (comme les portails ASIT viageo.ch et plans-reseaux.ch), puis exécute une série de tâches préconfigurées afin d'**extraire la donnée demandée** , puis **renvoie le résultat** vers le client : avec ou sans intervention humaine, c'est vous qui le définissez !
 
@@ -19,11 +19,13 @@ En automatisant le processus d'extraction et de livraison de vos géodonnées, v
 
 <img width="1106" height="242" alt="shema_global_transparent" src="https://github.com/user-attachments/assets/b478f1d6-2a9e-4a49-9e95-1678abbfc2c3" />
 
-Extract est modulable et extensible, à installer dans l’environnement informatique de chaque fournisseur de données, et accessible via un navigateur.
+Extract est modulable et extensible, à installer dans l'environnement informatique de chaque fournisseur de données, et accessible via un navigateur.
 
 ## 📋Documentation
 
 Toute la documentation pour installer, paramétrer et utiliser Extract est en ligne (en anglais) : https://asit-asso.github.io/extract/
+
+> **Personal note:** I'm using this fork to study the connector plugin architecture and experiment with a custom task plugin. See the `dev-notes/` folder for my learning notes.
 
 ## Groupe utilisateurs
 
