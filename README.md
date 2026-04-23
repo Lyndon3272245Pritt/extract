@@ -26,6 +26,8 @@ Extract est modulable et extensible, à installer dans l'environnement informati
 Toute la documentation pour installer, paramétrer et utiliser Extract est en ligne (en anglais) : https://asit-asso.github.io/extract/
 
 > **Personal note:** I'm using this fork to study the connector plugin architecture and experiment with a custom task plugin. See the `dev-notes/` folder for my learning notes.
+>
+> **Setup reminder:** When running locally, set `EXTRACT_TASKS_TIMEOUT_SECONDS=120` in `.env` to avoid premature task timeouts during debugging.
 
 ## Groupe utilisateurs
 
