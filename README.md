@@ -30,6 +30,8 @@ Toute la documentation pour installer, paramétrer et utiliser Extract est en li
 > **Setup reminder:** When running locally, set `EXTRACT_TASKS_TIMEOUT_SECONDS=120` in `.env` to avoid premature task timeouts during debugging.
 >
 > **Useful debug tip:** Add `EXTRACT_LOG_LEVEL=DEBUG` in `.env` as well — it makes connector plugin output much more verbose and easier to trace.
+>
+> **Note (2025-01):** The official docs don't mention it, but you also need to set `EXTRACT_SCHEDULER_POLLING_INTERVAL=10` locally if you want the scheduler to pick up test orders quickly without waiting the default 60-second interval.
 
 ## Groupe utilisateurs
 
@@ -62,5 +64,4 @@ L'ASIT, Association pour le Système d'Information du Territoire, à l'origine d
 
 ## Screenshots:
 
-<img width="3840" height="2160" alt="extract_home_FHD_logo2_2x" src="https://github.com/user-attachments/assets/8453d65e-813f-4250-b866-1ff3c92b17cc" />
-
+<img width="3840" height="2160" alt="extract_home_FHD_logo2
