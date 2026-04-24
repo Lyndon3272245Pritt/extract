@@ -32,6 +32,8 @@ Toute la documentation pour installer, paramétrer et utiliser Extract est en li
 > **Useful debug tip:** Add `EXTRACT_LOG_LEVEL=DEBUG` in `.env` as well — it makes connector plugin output much more verbose and easier to trace.
 >
 > **Note (2025-01):** The official docs don't mention it, but you also need to set `EXTRACT_SCHEDULER_POLLING_INTERVAL=10` locally if you want the scheduler to pick up test orders quickly without waiting the default 60-second interval.
+>
+> **Note (2025-03):** If the Spring Boot app fails to start with a `DataSource` error, double-check that `EXTRACT_DB_HOST` in `.env` matches the service name in `docker-compose.yml` (default is `db`, not `localhost`).
 
 ## Groupe utilisateurs
 
@@ -57,11 +59,4 @@ Actuellement, 37 fournisseurs diffusent tout ou partie de leurs géodonnées ave
 
 ## Liens:
 
-Présentations sur le projet aux Rencontres ASIT : https://asit-asso.ch/toutes-les-rencontres#2018
-
-L'ASIT, Association pour le Système d'Information du Territoire, à l'origine du projet : https://asit-asso.ch
-
-
-## Screenshots:
-
-<img width="3840" height="2160" alt="extract_home_FHD_logo2
+Présentations sur le projet aux Rencontres ASIT :
