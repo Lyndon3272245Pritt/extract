@@ -28,6 +28,8 @@ Toute la documentation pour installer, paramétrer et utiliser Extract est en li
 > **Personal note:** I'm using this fork to study the connector plugin architecture and experiment with a custom task plugin. See the `dev-notes/` folder for my learning notes.
 >
 > **Setup reminder:** When running locally, set `EXTRACT_TASKS_TIMEOUT_SECONDS=120` in `.env` to avoid premature task timeouts during debugging.
+>
+> **Useful debug tip:** Add `EXTRACT_LOG_LEVEL=DEBUG` in `.env` as well — it makes connector plugin output much more verbose and easier to trace.
 
 ## Groupe utilisateurs
 
